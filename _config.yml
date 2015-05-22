@@ -1,0 +1,57 @@
+###########
+# site.url, site.title
+
+url:   'http://localhost:4000'
+title: 'Translationary'
+
+# Meta data
+# ---------
+author:  One Fat Giraffe
+keywords:     translation, quran, dictionary-english, translation widget, translation station, common english nouns, top
+language:     en
+description: The fast, simple and convenient all-in-one app that helps you translate and define your everyday needs.
+
+
+# Links
+# -----
+twitter:      onefatgiraffe
+instagram:    onefatgiraffe
+
+
+########
+# more settings
+
+markdown: kramdown
+highlighter: pygments
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+
+
+exclude: [
+  'Gemfile',
+  'Gemfile.lock',
+  'Rakefile',
+  'README.md',
+  'node_modules',
+  'vendor',
+  'bower.json',
+  'package.json',
+  'gruntfile.js',
+  'CONTRIBUTING.md'
+  ]
+
+
+safe: true
+lsi: false
+
+# Settings for analytics helper
+# Set 'provider' to the analytics provider you want to use.
+# Set 'provider' to false to turn analytics off globally.
+#        
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-47364644-6'
