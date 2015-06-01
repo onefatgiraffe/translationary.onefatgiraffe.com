@@ -2,7 +2,10 @@
 # site.url, site.title
 
 title: Translationary
-url: "http://translationary.onefatgiraffe.com"
+url: "https://translationary.onefatgiraffe.com"
+
+# do not include protocol, just the domain
+enforce_ssl: translationary.onefatgiraffe.com
 
 # Meta data
 # ---------
