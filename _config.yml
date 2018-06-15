@@ -4,9 +4,6 @@
 title: Translationary
 url: "https://translationary.onefatgiraffe.com"
 
-# do not include protocol, just the domain
-enforce_ssl: translationary.onefatgiraffe.com
-
 # Meta data
 # ---------
 author:  One Fat Giraffe
@@ -43,7 +40,8 @@ exclude: [
   'bower.json',
   'package.json',
   'gruntfile.js',
-  'CONTRIBUTING.md'
+  'CONTRIBUTING.md',
+  'LICENSE'
   ]
 
 
