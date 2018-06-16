@@ -126,14 +126,6 @@ Object.defineProperty(item,'prepend',{configurable:true,enumerable:true,writable
  *     for Twitter phrases like "posted on" or "time ago". Default value
  *     is "en" (English).
  */
-
-
-// ##### Simple example 2 #####
-// A simple example to get my latest 5 of my favourite tweets and write to a
-// HTML element with id "talk". Also automatically hyperlinks URLS and user
-// mentions and hashtags but does not display time of post. We also make the
-// request to Twitter specifiying we would like results where possible in
-// English language.
 var config2 = {
   "id": '601960756234457088',
   "domId": 'latesttweet',
@@ -142,7 +134,7 @@ var config2 = {
   "showUser": true,
   "showTime": true,
   "showInteraction": false,
-  "showPermalinks": false
+  "showPermalinks": false,
   "lang": 'en'
 };
 twitterFetcher.fetch(config2);
